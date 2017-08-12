@@ -49,7 +49,7 @@ header{
 
 }
 
-@media screen and (max-width: 767px){
+@media screen and (min-width: 40px) and (max-width: 767px){
     #container header{
         background: #dd2120;
         border-bottom: 1px solid;
@@ -68,5 +68,67 @@ header{
         color: #087aff;
         font-size: 2em;
         margin: 1em;
+    }
+}
+
+@media screen and (max-width: 465px){
+    body{
+        font-size: 2em;
+    }
+
+    #container header{
+        background: #00ffff;
+    }
+
+    #container header h1{
+        color: #000000;
+    }
+
+    #container header p{
+        color: #584;
+    }
+
+    #container #content{
+        background: #000000;
+    }
+
+    #container #content article{
+        background: #dd2120;
+        border-bottom: 2px solid #ff00ff;
+        color: #FFF;
+    }
+
+    #container footer{
+        background: #00ffff;
+        color: #000000;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    #container header{
+        background: none;
+    }
+
+    #container header h1{
+        color: #ff0000;
+    }
+
+    #container header p{
+        color: #00ff00;
+    }
+
+    #container #content{
+        background: #000ff0;
+    }
+
+    #container #content article{
+        background: #00ee0f;
+        border-bottom: 2px solid #ffff00;
+        color: #000ff0;
+    }
+
+    #container footer{
+        background: #ffff00;
+        color: #0feeff;
     }
 }

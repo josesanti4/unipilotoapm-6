@@ -1,0 +1,13 @@
+var e = {};
+var a;
+var a = 'variable';
+var b = 5;
+var c = true;
+var d = 'a';
+'b', 'c';
+;
+console.log(a);
+console.log(b);
+console.log(c);
+console.log(d);
+console.log(e);
